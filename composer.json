@@ -1,0 +1,29 @@
+{
+	"name": "jstewmc/almost-equals",
+	"description": "Compare floats for equality",
+	"keywords": [
+		"php", 
+		"jstewmc", 
+		"compare", 
+		"floats",
+		"equality"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Jack Clayton",
+			"email": "clayjs0@gmail.com"	
+		}
+	],
+	"require": {
+		"php": "^7.0"
+	},
+	"require-dev": {
+		"jstewmc/test-case": "^1.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Jstewmc\\AlmostEquals\\": "src/"
+		}
+	}
+}
